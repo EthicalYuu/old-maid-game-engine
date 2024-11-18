@@ -1,5 +1,7 @@
 # The Old Maid Card Game
 
+> ⚠️ **Important:** This README provides a high-level overview of the project. For comprehensive details, including architecture, design decisions, and implementation, please refer to the [Project Documentation (PDF)](./JAVA%20MULTITHREADING%20COMPUTERIZED%20OLD%20MAID%20GAME%20REPORT.pdf).
+
 A Java multithreading and OOP implementation of the Old Maid card game, where players are simulated as threads playing the game automatically.
 
 ## Table of Contents
@@ -28,7 +30,6 @@ The Old Maid game demonstrates the use of Java multithreading to simulate concur
 - **Object-Oriented Design**: Classes like `Game`, `Player`, `DeckManager`, and `TurnManager` encapsulate distinct responsibilities.
 - **Fully Automated Gameplay**: The game runs autonomously without human input.
 - **Efficient Synchronization**: Threads use `wait` and `notify` mechanisms for optimal CPU usage.
-- **Clean Code Adherence**: Follows Uncle Bob’s principles for clarity and maintainability.
 
 ## Usage
 
@@ -55,3 +56,9 @@ Project Design
     2.  **Discarding Matches**: Threads discard matching pairs.
     3.  **Gameplay**: Players pass cards and check for matches.
 -   Threads use `wait()` and `notifyAll()` to coordinate turns efficiently.
+
+Documentation
+-------------
+
+For detailed documentation on the system's architecture, design, and implementation, please refer to the [Project Documentation (PDF)](./JAVA%20MULTITHREADING%20COMPUTERIZED%20OLD%20MAID%20GAME%20REPORT.pdf).
+
